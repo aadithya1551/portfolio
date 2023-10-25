@@ -1,0 +1,182 @@
+body{
+   background-color: peachpuff;
+}
+h1{
+text-align: center;
+margin-top: -10px;
+text-transform: uppercase;
+color: maroon;
+}
+.menu{
+background-color:maroon;
+margin-top: -25px;
+border-radius: 8px;
+
+}
+a{
+   color: peachpuff;
+   text-decoration: none;
+}
+ul{
+list-style: none;
+display: flex;
+margin:  40px;
+padding: 20px;
+}
+ul li{
+padding: 7px;
+color: peachpuff;
+margin: 25px;
+margin-right: 13%;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 20px;
+cursor: pointer;
+}
+
+ul li:hover{
+   text-decoration: underline;
+   
+}
+
+h3{
+color: maroon;
+font-weight: bold;
+font-size: 25px;
+margin-left: 20px;
+margin-top: 0px;
+}
+
+.profile{
+height: 70%;
+width: 100%;
+display: grid;
+margin-top: -10px;
+}
+
+#obj{
+width: 90%;
+grid-column-start: 1;
+grid-column-end: 2;
+font-size: 25px;
+margin-left: 20px;
+text-align: justify;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+word-spacing: 10px;
+line-height: 40px;
+text-indent: 35px;
+}
+.profile-pic{
+grid-column-start: 2;
+grid-column-end: 3;
+border: solid  black;
+height: 200px;
+width:  170px;
+object-fit: fill;
+border-radius: 6px;
+box-shadow: 0px 0px 15px black;
+margin-top: 30px;
+margin-right: 60px;
+}
+#delc{
+ text-indent: 50px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 25px;	
+text-align: justify;
+word-spacing: 7px;
+}
+h4{
+font-size: 21px;
+position: relative;
+grid-column-start: 2;
+grid-column-end: 3;
+}
+
+h2{
+font-size: 30px;
+text-align: center;
+border-bottom: ridge maroon;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.check{
+   
+   max-height: 100px;
+}
+
+section{
+border: ridge maroon;
+border-radius: 20px;
+margin-bottom: 20px;
+margin-left: 25px;
+margin-right: 25px;
+background-color: rgb(255, 197, 149);
+}
+
+h5{
+   font-weight: bold;
+   font-size: 22px;
+   color: maroon;
+   text-decoration: underline;
+   text-transform: capitalize;
+}
+
+
+ol li{
+   list-style: upper-alpha;
+   font-size: 20px;
+   font-style: italic;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin-left: 30px;
+}
+
+.skill{
+   display: grid;
+   margin-bottom: 20px;
+}
+
+.hardskill{
+   grid-column-start: 1;
+   grid-column-end: 2;
+   border-right: ridge maroon;
+}
+.hardskill h5{
+   text-align: center;
+   color: maroon;
+}
+.softskill{
+   grid-column-start: 2;
+   grid-column-end: 3;
+  
+}
+.softskill h5{
+   text-align: center;
+   color: maroon;
+}
+.skill ol{
+   margin-left: 200px;
+}
+
+.contact{
+   display: flex;
+}
+.contact li{
+   list-style: none;
+   margin-left: 120px;   
+}
+span{
+    font-weight: bold;
+}
+
+#four{
+   background-color: maroon;
+   color: peachpuff;
+   padding: 30px;
+   border-radius: 7px;
+}
+#four h2{
+   border:none;
+   margin-top: -10px;
+   
+}
